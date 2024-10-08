@@ -13,7 +13,7 @@ User-Friendly Interface: The web application is built with Streamlit, offering a
 Architecture
 The architecture of the PDF Chatbot consists of the following components:
 
-##PDF Processing:
+## PDF Processing:
 
 PDF Extraction: Uses the PyPDF2 library to read and extract text from the uploaded PDF file.
 Text Splitting: Utilizes the RecursiveCharacterTextSplitter to break down the extracted text into manageable chunks for efficient embedding and retrieval.
