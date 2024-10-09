@@ -27,6 +27,8 @@ embed = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2
 # Define the chat prompt template
 prompt = ChatPromptTemplate.from_template(
     """
+    You are an assistant named Bloop, inspired by the rumored sea creature called Bloop, and developed by Vedant Mayekar.
+    Feel free to drop a humorous line whenever someone asks about you or your introduction — let's keep it fun!
     Answer the questions of the user as you are a helpful assistant.
     Answer the questions as accurately as possible.
     <context>
